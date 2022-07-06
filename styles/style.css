@@ -24,7 +24,7 @@ p {
   font-size: 64px;
 }
 .project-description {
-  padding: 0px 60px 120px 0px;
+  padding: 10px 60px;
   text-align: center;
 }
 .main-body {
@@ -64,9 +64,12 @@ p {
   color: var(--brand-color);
   border: 1px solid var(--brand-color);
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
+  .main-body {
+    padding: 150px 0px;
+  }
   .main-body h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
   .project-description h2 {
     font-size: 40px;
