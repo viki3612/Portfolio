@@ -48,28 +48,52 @@ p {
   line-height: 1.5;
 }
 .main-body .btn-branded,
-.project-description .btn-branding-projects {
+.project-description .btn-branding-projects,
+.about-section .btn-branded {
   border-radius: 4px;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   padding: 15px 30px;
 }
-.main-body .btn-branded {
+.main-body .btn-branded,
+.about-section .btn-branded {
   background: var(--brand-color);
   color: white;
   font-size: 18px;
 }
+
 .project-description .btn-branding-projects {
   color: var(--brand-color);
   border: 1px solid var(--brand-color);
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: unset;
+}
+.about-section-content {
+  margin: 45px;
+}
+
 @media (max-width: 960px) {
   .main-body {
     padding: 150px 0px;
   }
-  .main-body h1 {
-    font-size: 40px;
+  .main-body h1,
+  .about-section h1 {
+    font-size: 44px;
   }
   .project-description h2 {
     font-size: 40px;
@@ -77,5 +101,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 20px 0px;
   }
 }
