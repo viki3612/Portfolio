@@ -27,10 +27,12 @@ p {
   padding: 10px 60px;
   text-align: center;
 }
+.wrapper {
+  background: var(--primary-color);
+  padding: 20px 0px 140px;
+}
 .main-body {
   text-align: center;
-  padding: 200px 0px;
-  background: var(--primary-color);
 }
 .main-body h1 {
   font-size: 96px;
@@ -91,6 +93,9 @@ p {
 .content {
   margin: 45px;
 }
+.logo {
+  max-height: 180px;
+}
 nav {
   padding: 30px 0px;
 }
@@ -105,8 +110,8 @@ nav li {
   font-family: var(--default-font-family);
 }
 nav a {
-  color: black;
   text-decoration: none;
+  color: black;
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
