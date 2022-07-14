@@ -21,6 +21,7 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
 .project-description h2 {
   font-size: 64px;
 }
@@ -59,7 +60,7 @@ p {
   font-weight: 500;
   line-height: 27px;
   padding: 15px 30px;
-  transition: all 150px ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 .main-body .btn-branded,
 .content .btn-branded,
@@ -67,17 +68,25 @@ p {
   background: var(--brand-color);
   color: white;
 }
+.main-body .btn-branded:hover,
+.content .btn-branded:hover,
+.contact-box .btn-branded:hover {
+  background: #1f4690;
+  color: white;
+  border-color: transparent;
+  transition: all 150ms ease-in-out;
+}
 
 .project-description .btn-branding-projects {
   color: var(--brand-color);
   border: 1px solid var(--brand-color);
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 30px 20px;
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 1.2;
 }
 .content h2 {
@@ -97,10 +106,10 @@ p {
   margin: 45px;
 }
 .logo {
-  max-height: 180px;
+  max-height: 130px;
 }
 nav {
-  padding: 30px 0px;
+  padding: 30px 0px 0px;
 }
 nav ul {
   padding: 0;
@@ -129,7 +138,7 @@ footer .contact-box {
   padding: 30px 120px;
   border-radius: 10px;
 }
-footer .contact-box h4 {
+footer .contact-box h3 {
   font-size: 48px;
 }
 footer .contact-box p {
@@ -160,7 +169,7 @@ footer .social-links a:hover {
 
 @media (max-width: 960px) {
   .main-body {
-    padding: 150px 0px;
+    padding: 80px 0px;
   }
   .main-body h1,
   .content h1 {
@@ -173,7 +182,7 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
-  footer .contact-box h4 {
+  footer .contact-box h3 {
     font-size: 25px;
   }
 
