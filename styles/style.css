@@ -137,6 +137,7 @@ footer .contact-box {
   background-color: var(--primary-color);
   padding: 30px 120px;
   border-radius: 10px;
+  margin: 150px 0px 0px 0px;
 }
 footer .contact-box h3 {
   font-size: 48px;
@@ -145,28 +146,31 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
+.content a {
   text-decoration: none;
   color: black;
   font-size: 16px;
+  transition: all 200ms ease-in-out;
 }
 footer .email-link:hover {
   color: var(--brand-color);
 }
 footer .social-links a {
   margin: 0 20px;
-  color: var(--brand-color);
-  background-color: var(--primary-color);
+  color: white;
+  background-color: var(--brand-color);
   padding: 10px 14px;
   border-radius: 20px;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 footer .social-links a:hover {
-  color: white;
-  background-color: var(--brand-color);
+  color: var(--brand-color);
+  background-color: var(--primary-color);
 }
-
+footer a {
+  text-decoration: none;
+}
 @media (max-width: 960px) {
   .main-body {
     padding: 80px 0px;
