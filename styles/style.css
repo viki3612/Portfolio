@@ -130,6 +130,20 @@ nav a:hover,
 nav li.active a {
   color: var(--brand-color);
 }
+div .technologies ul {
+  padding: 0;
+  margin: 0;
+}
+
+div .technologies li {
+  list-style: none;
+  line-height: 1.7;
+  margin-left: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.8;
+}
 footer {
   margin: 80px 0px;
 }
