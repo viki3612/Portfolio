@@ -104,6 +104,10 @@ p {
 .content {
   margin: 45px;
 }
+.content .weather-app-link:hover,
+.landing-page-link:hover {
+  color: black;
+}
 .logo {
   max-height: 130px;
 }
@@ -134,25 +138,6 @@ div .technologies ul {
   margin: 0;
 }
 
-div .technologies li {
-  display: inline;
-  list-style: none;
-  line-height: 1.7;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  padding: 10px;
-}
-.technologies li.tech-1,
-.tech-2,
-.tech-3,
-.tech-4,
-.tech-5,
-.tech-6 {
-  border-radius: 15px;
-  margin: 8px 10px;
-  background-color: var(--brand-color);
-}
 footer {
   margin: 80px 0px;
 }
@@ -164,6 +149,7 @@ footer .contact-box {
 }
 footer .contact-box h3 {
   font-size: 48px;
+  color: white;
 }
 footer .contact-box p {
   margin: 0;
@@ -212,6 +198,7 @@ footer a {
     padding: 0;
     text-align: center;
   }
+
   footer .contact-box h3 {
     font-size: 25px;
   }
