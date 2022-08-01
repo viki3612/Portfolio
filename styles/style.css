@@ -30,7 +30,7 @@ p {
 }
 .wrapper {
   background: var(--primary-color);
-  padding: 20px 0px 180px;
+  padding: 200px 0px 180px;
 }
 .main-body {
   text-align: center;
@@ -111,31 +111,18 @@ p {
 .logo {
   max-height: 130px;
 }
-nav {
-  padding: 30px 0px 0px;
-}
-nav ul {
+nav.navbar-menu {
   padding: 0;
-  margin: 0;
-}
-nav li {
-  display: inline;
-  line-height: 40px;
-  margin-left: 15px;
   font-family: var(--default-font-family);
 }
-nav a {
-  text-decoration: none;
-  color: black;
-  transition: all 100ms ease-in-out;
+
+nav .container-fluid {
+  background-color: var(--primary-color);
 }
-nav a:hover,
-nav li.active a {
+
+#navbarNav a.active,
+#navbarNav a:hover {
   color: var(--brand-color);
-}
-div .technologies ul {
-  padding: 0;
-  margin: 0;
 }
 
 footer {
