@@ -81,7 +81,7 @@ p {
   border: 1px solid var(--brand-color);
 }
 .content-container {
-  padding: 30px 20px;
+  padding: 200px 20px;
 }
 
 .content h1 {
@@ -124,7 +124,9 @@ nav .container-fluid {
 #navbarNav a:hover {
   color: var(--brand-color);
 }
-
+#navbar-default-color {
+  background-color: white;
+}
 footer {
   margin: 80px 0px;
 }
