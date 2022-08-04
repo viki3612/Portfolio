@@ -171,7 +171,7 @@ footer a {
 }
 @media (max-width: 960px) {
   .main-body {
-    padding: 80px 0px;
+    padding: 0px;
   }
   .main-body h1,
   .content h1 {

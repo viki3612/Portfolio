@@ -1,7 +1,6 @@
-function alterStyle() {
-  let changeBackground = document.querySelector("#navbar-background-color");
+//function alterStyle() {
+//let changeBackground = document.querySelector("#navbar-background-color");
+//changeBackground.style.background = "white";
+//}
 
-  changeBackground.style.background = "white";
-}
-
-window.addEventListener("scroll", alterStyle);
+//window.addEventListener("scroll", alterStyle);
