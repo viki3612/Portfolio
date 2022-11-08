@@ -104,9 +104,14 @@ p {
 .content {
   margin: 45px;
 }
-.content .weather-app-link:hover,
-.landing-page-link:hover {
+.content a {
+  text-decoration: none;
   color: black;
+  font-size: 16px;
+  transition: all 200ms ease-in-out;
+}
+.content a:hover {
+  color: var(--brand-color);
 }
 .logo {
   max-height: 130px;
@@ -144,12 +149,6 @@ footer .contact-box p {
   margin: 0;
 }
 
-.content a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  transition: all 200ms ease-in-out;
-}
 footer .email-link:hover {
   color: var(--brand-color);
 }
