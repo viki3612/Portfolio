@@ -30,7 +30,7 @@ p {
 }
 .wrapper {
   background: var(--primary-color);
-  padding: 200px 0px 180px;
+  padding: 200px 0px 100px;
 }
 .main-body {
   text-align: center;
@@ -50,6 +50,27 @@ p {
   font-size: 22px;
   line-height: 1.5;
 }
+.main-body h3 {
+  font-size: 20px;
+  border-right: 2px solid var(--brand-color);
+  padding-right: 20px;
+}
+.main-body .tech-section {
+  align-items: center;
+  padding-top: 80px;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+}
+.main-body li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 10px;
+}
+.main-body ul {
+  padding-left: 10px;
+}
+
 .main-body .btn-branded,
 .project-description .btn-branding-projects,
 .content .btn-branded,
@@ -178,6 +199,15 @@ footer a {
   }
   .main-body p {
     font-weight: 400;
+  }
+  .main-body .tech-section {
+    flex-direction: column;
+  }
+  .main-body h3 {
+    border-bottom: 2px solid var(--brand-color);
+    border-right: none;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 20px;
   }
   .project-description h2 {
     font-size: 40px;
